@@ -4,7 +4,6 @@ This is a utility to recover deleted SMS messages from a Windows 8.0 phone
 I have discovered at least 4 distinct storage schema for SMS messages on a Nokia Lumia Windows 8.0 phone
 
 ```python
-    re.compile("""
     (?P<u0>.{9})
     (?P<message_id>.{4})
     .{4}
@@ -48,13 +47,9 @@ I have discovered at least 4 distinct storage schema for SMS messages on a Nokia
     \*{8}                                    
     (?P<u9>.{4})                          
     (?:
-    
         .{50}
         (?P<u10>\x00\x00\x00\x00)
         (?P<FILETIME_2>.{6}[\xCD-\xD9]\x01)
-        #|
-        #\x01\x00\x00\x00
-    
     )?
     (?P<u11>
         (?P<u11a>.{,150}?)\x00\x00\x01
@@ -63,7 +58,6 @@ I have discovered at least 4 distinct storage schema for SMS messages on a Nokia
         ))
     )
     (?P<SMStext>I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)
-    #.*?
     \x01
     (?P<content>
         (?(draft)|(?(sent)|
@@ -84,7 +78,6 @@ I have discovered at least 4 distinct storage schema for SMS messages on a Nokia
             (?P<sim>S\x00I\x00M\x00\x00\x00)
         )?
     )
-    """)
 ```
     
 ## Current version
