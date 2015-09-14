@@ -1,4 +1,7 @@
 # find_my_texts_wp8
+
+**Please excuse the mess. I am still trying to get this all set up**
+
 This is a utility to recover deleted SMS messages from a Windows 8.0 phone
 
 I have discovered at least 4 distinct storage schema for SMS messages on a Nokia Lumia Windows 8.0 phone
