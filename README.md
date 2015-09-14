@@ -3,6 +3,7 @@ This is a utility to recover deleted SMS messages from a Windows 8.0 phone
 
 I have discovered at least 4 distinct storage schema for SMS messages on a Nokia Lumia Windows 8.0 phone
 
+```python
     re.compile("""
     (?P<u0>.{9})
     (?P<message_id>.{4})
@@ -84,7 +85,7 @@ I have discovered at least 4 distinct storage schema for SMS messages on a Nokia
         )?
     )
     """)
-    
+```
     
 ## Current version
 1. Reads the most common, known SMS storage format and places data in a SQLite DB
