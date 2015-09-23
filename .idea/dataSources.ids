@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="SQLite -" uuid="be4790a5-2acf-4fed-9a61-b02a014d72c0">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="all_draft" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="all_incoming_unknown" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="all_outgoing_unknown" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="all_read" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="all_sent" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="all_unread" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="conversation_type0_full_binaries" schema="" catalog="" type="TABLE">
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="conversation_type0_offsets" schema="" catalog="" type="TABLE">
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_length" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="full_binary" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="conversation_type0_stage0" schema="" catalog="" type="TABLE">
+      <column name="version" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_length" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="phone_2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="conversation_type0_stage1" schema="" catalog="" type="TABLE">
+      <column name="version" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_length" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="conversation_type0_widths" schema="" catalog="" type="TABLE">
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_length" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="full_binary" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="create_union" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="dictionary" schema="" catalog="" type="TABLE">
+      <column name="str" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="bin_value" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="str"/>
+    </table>
+    <table name="message_intermediate" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="timestamp0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction (hex)" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="message_process_s0" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_hex" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_4" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="message_process_s1" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="unix_time0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_hex" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="messages" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type0_final" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="timestamp0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction (hex)" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type0_stage0" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_hex" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_4" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type0_stage1" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="unix_time0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_hex" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type1_final" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="timestamp0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction (hex)" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type1_stage0" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_4" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_5" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_6" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_7" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="process_sms_type1_stage1" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="unix_time0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="unix_time3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds0" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds1" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds2" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="milliseconds3" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_text" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sent_recieved_hex" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="sms_type0_full_binaries" schema="" catalog="" type="TABLE">
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type0_offsets" schema="" catalog="" type="TABLE">
+      <column name="u11a" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u9" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u8" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u11" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sim" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2b" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="direction" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="content" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u12" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u10" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="SMStext" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type0_stage0" schema="" catalog="" type="TABLE">
+      <column name="u11a" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u9" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u8" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u7" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u11" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sim" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2b" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="direction" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="content" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u12" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u10" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="SMStext" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type0_stage1" schema="" catalog="" type="TABLE">
+      <column name="u11a" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u9" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u8" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u11" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="sim" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2b" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="direction" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="content" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u12" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u10" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="SMStext" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type0_widths" schema="" catalog="" type="TABLE">
+      <column name="u11a" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u9" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u8" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u11" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sim" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2b" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="direction" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="content" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u12" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u10" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="SMStext" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type1_full_binaries" schema="" catalog="" type="TABLE">
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type1_offsets" schema="" catalog="" type="TABLE">
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u8" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="content" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="i2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="SMStext" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="i1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type1_stage0" schema="" catalog="" type="TABLE">
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u8" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u7" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="content" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="i2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_7" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="SMStext" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="i1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type1_stage1" schema="" catalog="" type="TABLE">
+      <column name="u1" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t1" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_5" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t0" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u8" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_5" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t5" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="content" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_6" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u4" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t4" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_6" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u3" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t3" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_4" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="i2" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_7" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="SMStext" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="u2" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="t2" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_4" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="i1" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="sms_type1_widths" schema="" catalog="" type="TABLE">
+      <column name="u1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u8" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="record_offset" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="u5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t5" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="content" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_6" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t3" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="i2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_7" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="SMStext" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="u2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="t2" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="phone_1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="version" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message_id" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_4" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="i1" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="record_offset"/>
+    </table>
+    <table name="threads" schema="" catalog="" type="VIEW">
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="Phone" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="type0_messages" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="type1_messages" schema="" catalog="" type="VIEW">
+      <column name="message_id" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="Phone" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="type_0_with_bin" schema="" catalog="" type="VIEW">
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2b" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="type_1_with_bin" schema="" catalog="" type="VIEW">
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="message_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="thread_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="with_bin" schema="" catalog="" type="TABLE">
+      <column name="phone_0" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_1" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_2" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_3" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_4" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_5" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="phone_6" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="FILETIME_0" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_1" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_2" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_3" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_4" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_5" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_6" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="FILETIME_7" sqlType="INT8" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="full_binary" sqlType="BLOB" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
