@@ -1,4 +1,4 @@
-__author__ = 'owner'
+__author__ = 'Chris Ottersen'
 #from sms_text.parse import parse_sms
 #from thread_record.parse import parse_thread
 

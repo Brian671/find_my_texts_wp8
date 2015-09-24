@@ -1,4 +1,4 @@
-__author__ = 'owner'
+__author__ = 'Chris Ottersen'
 
 import sqlite3
 from types import *
