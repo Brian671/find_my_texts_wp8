@@ -1,4 +1,4 @@
-__author__ = 'owner'
+__author__ = 'Chris Ottersen'
 
 values = {
     "phone_1": None,

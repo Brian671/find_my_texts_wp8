@@ -1,5 +1,7 @@
-__author__ = 'owner'
 import re
+
+__author__ = 'Chris Ottersen'
+
 
 exp_template = r"""
         ^

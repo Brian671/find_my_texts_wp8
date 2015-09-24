@@ -1,8 +1,11 @@
-__author__ = 'owner'
 import re
+
+__author__ = 'Chris Ottersen'
+
 # TODO: identify - deleted
 # TODO: identify - location
 # TODO: identify -
+
 x='''
 exp = re.compile(
     r"""

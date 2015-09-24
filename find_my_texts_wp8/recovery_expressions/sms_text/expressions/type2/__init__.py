@@ -1,2 +1,1 @@
-__author__ = 'owner'
-
+__author__ = 'Chris Ottersen'

@@ -1,5 +1,7 @@
-__author__ = 'owner'
 import re
+
+__author__ = 'Chris Ottersen'
+
 exp = re.compile(
     r"""
         (?!I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)

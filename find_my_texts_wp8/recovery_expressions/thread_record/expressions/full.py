@@ -1,5 +1,6 @@
-__author__ = 'owner'
 import re
+
+__author__ = 'Chris Ottersen'
 
 exp = re.compile(r"""
     #\x05\x00\x7F\x80\x00

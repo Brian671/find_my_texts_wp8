@@ -1,11 +1,15 @@
-__author__ = 'owner'
 import re
 
+__author__ = 'Chris Ottersen'
+
+
+"""
+    :type exp_template:
+"""
 exp_template = re.compile(
     r"""
         ^
-        (?P<SMStext>I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)
-        #.*?
+        (?P<SMStext>I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)   #  Indicates that
         \x01
         (?P<content>
             (?:
@@ -31,4 +35,4 @@ exp_template = re.compile(
 
 exp_incoming = re.compile(exp_template.pattern % "1", re.DOTALL | re.VERBOSE)
 exp_outgoing = re.compile(exp_template.pattern % "0", re.DOTALL | re.VERBOSE)
-exp_general  = re.compile(exp_template.pattern % "0,1", re.DOTALL | re.VERBOSE)
+exp_general = re.compile(exp_template.pattern % "0,1", re.DOTALL | re.VERBOSE)
