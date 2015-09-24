@@ -2,111 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f856f606-2daa-4fe0-b955-a4224625fecf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/find_my_texts_wp8/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/expressions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\.idea\codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\.idea\jsLinters\jshint.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\.idea\phone_analysis.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\adrian.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\default\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\default\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\default\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\expressions\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\expressions\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\expressions\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\default\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\default\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\default\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\expressions\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\expressions\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\expressions\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\sms_text\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\default\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\default\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\default\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\expressions\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\expressions\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\expressions\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\backup\recovery_expressions\thread_record\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\console.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\end.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\practice.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\sms_database.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\database\start.sql" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\experiment.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\default\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\default\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\default\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\expressions\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\expressions\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\expressions\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type0\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type0\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type0\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type0\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type1\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type1\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type1\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type1\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type2\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\default\type3\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type0\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type0\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type0\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type0\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type1\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type1\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type1\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type1\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type2\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\expressions\type3\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\sms_text\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\test.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\default\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\default\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\default\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\default\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\expressions\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\expressions\end.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\expressions\full.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\expressions\start.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\recovery_expressions\thread_record\parse.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\sms.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\test.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\tools\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\tools\tz_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\tools\utils.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\owner\Documents\GitHub\find_my_texts_wp8\wp8-sms.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/owner.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/owner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" afterPath="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py" afterPath="$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py" afterPath="$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py" />
     </list>
     <ignored path="find_my_texts_wp8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,7 +21,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/find_my_texts_wp8$find_my_texts_wp8.coverage" NAME="find_my_texts_wp8 Coverage Results" MODIFIED="1443042224475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/find_my_texts_wp8" />
+    <SUITE FILE_PATH="coverage/find_my_texts_wp8$find_my_texts_wp8.coverage" NAME="find_my_texts_wp8 Coverage Results" MODIFIED="1443080304279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/find_my_texts_wp8" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -150,7 +51,45 @@
     <favorites_list name="find_my_texts_wp8" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="wp8_sms_integrated.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46252927">
+              <caret line="551" column="0" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_my_texts_wp8.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sms_database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+              <folding>
+                <marker date="1443079226791" expanded="true" signature="9869:9906" placeholder="DROP TABLE I..." />
+                <marker date="1443079226791" expanded="true" signature="9945:10087" placeholder="CREATE TABLE..missing_value_full_binaries..." />
+                <marker date="1443079226791" expanded="true" signature="10186:10210" placeholder="DROP TABLE I..." />
+                <marker date="1443079226791" expanded="true" signature="10265:10328" placeholder="CREATE TABLE..missing_value_missing_value..." />
+                <marker date="1443079226791" expanded="true" signature="11014:11045" placeholder="DROP TABLE I..." />
+                <marker date="1443079226791" expanded="true" signature="11087:11214" placeholder="CREATE TABLE..dictionary..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,10 +107,7 @@
       <list>
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/expressions/type0/__init__.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/expressions/type1/__init__.py" />
-        <option value="$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py" />
-        <option value="$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/database/__init__.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type3/__init__.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/__init__.py" />
@@ -187,6 +123,9 @@
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/default/__init__.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/__init__.py" />
         <option value="$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/__init__.py" />
+        <option value="$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py" />
+        <option value="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" />
+        <option value="$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py" />
       </list>
     </option>
   </component>
@@ -281,12 +220,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="find_my_texts_wp8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/find_my_texts_wp8/database/data/mydb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -323,7 +294,7 @@
       <module name="find_my_texts_wp8" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py" />
-      <option name="PARAMETERS" value="-f &quot;C:\Users\owner\Desktop\UFED_Extractions\Nokia GSM Lumia 520.2 (RM-915) 2015_07_28 (004)\Physical 02\Dump.bin&quot; -o &quot;C:\Users\owner\Desktop\UFED_Extractions\Nokia GSM Lumia 520.2 (RM-915) 2015_07_28 (004)\Physical 02\sms.tsv&quot;" />
+      <option name="PARAMETERS" value="-f &quot;Dump.bin&quot; -o &quot;data\mydb&quot; -d &quot;C:\Users\owner\Desktop\UFED_Extractions\Nokia GSM Lumia 520.2 (RM-915) 2015_07_28 (004)\Physical 02\&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -406,6 +377,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -538,31 +515,39 @@
       <option name="number" value="Default" />
       <updated>1442964606718</updated>
     </task>
+    <task id="LOCAL-00001" summary="deleted unneeded file">
+      <created>1443076311847</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443076311847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="864" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39684328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24759358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28716576" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="864" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3427283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25080213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28716576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -577,22 +562,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted unneeded file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted unneeded file" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py</url>
-          <line>185</line>
+          <line>184</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py</url>
-          <line>213</line>
+          <line>214</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py</url>
-          <line>121</line>
+          <line>120</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
@@ -613,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,10 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1442944384753" expanded="true" signature="-1:-1" placeholder="SELECT recor..sms_type0_stage0..." />
-            <marker date="1442944384753" expanded="true" signature="-1:-1" placeholder="SELECT s0.re..sms_type0_stage0..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.29274">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07962529">
           <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039812647">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,52 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1442965042773" expanded="true" signature="-1:-1" placeholder="SELECT str F..dictionary..." />
-            <marker date="1442965042773" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1442965042773" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1442965042773" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1442965042773" expanded="true" signature="-1:-1" placeholder="VALUES (:mis..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..conversation_type0_widths">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..conversation_type0_offsets">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..conversation_type0_full_binaries">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.037777778">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,50 +756,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03024911">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..sms_type0_stage0">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/database/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type0/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.068">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.102">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/expressions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..dictionary">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/expressions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/default/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033864543">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20318726">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.2151394">
+          <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033864543">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/IronPython 2.7/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033864543">
+          <caret line="1043" column="0" selection-start-line="1043" selection-start-column="0" selection-end-line="1043" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..sms_type0_stage1">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding>
+            <marker date="1443079226791" expanded="true" signature="9869:9906" placeholder="DROP TABLE I..." />
+            <marker date="1443079226791" expanded="true" signature="9945:10087" placeholder="CREATE TABLE..missing_value_full_binaries..." />
+            <marker date="1443079226791" expanded="true" signature="10186:10210" placeholder="DROP TABLE I..." />
+            <marker date="1443079226791" expanded="true" signature="10265:10328" placeholder="CREATE TABLE..missing_value_missing_value..." />
+            <marker date="1443079226791" expanded="true" signature="11014:11045" placeholder="DROP TABLE I..." />
+            <marker date="1443079226791" expanded="true" signature="11087:11214" placeholder="CREATE TABLE..dictionary..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/1f37b006/be4790a5-2acf-4fed-9a61-b02a014d72c0/..sms_type1_stage1">
+    <entry file="dbDummy://dbtable:/921a519e/be4790a5-2acf-4fed-9a61-b02a014d72c0/..dictionary">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -895,168 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/wp8_sms_integrated.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="518" column="34" selection-start-line="518" selection-start-column="34" selection-end-line="521" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/database/sms_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="340" column="11" selection-start-line="340" selection-start-column="11" selection-end-line="340" selection-end-column="11" />
-          <folding>
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..missing_value_full_binaries..." />
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..missing_value_missing_value..." />
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1443027583789" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..dictionary..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/database/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type0/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.068">
-          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/default/type3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/expressions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/expressions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1443028591787" expanded="true" signature="-1:-1" placeholder="SELECT str F..dictionary..." />
-            <marker date="1443028591787" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443028591787" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443028591787" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443028591787" expanded="true" signature="-1:-1" placeholder="VALUES (:mis..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/find_my_texts_wp8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/default/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033864543">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/sms_text/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20318726">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/recovery_expressions/thread_record/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.2151394">
-          <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
-          <folding>
-            <marker date="1443031189568" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443031189568" expanded="true" signature="-1:-1" placeholder="VALUES (:mis..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_my_texts_wp8/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033864543">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.46252927">
+          <caret line="551" column="0" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
           <folding />
         </state>
       </provider>

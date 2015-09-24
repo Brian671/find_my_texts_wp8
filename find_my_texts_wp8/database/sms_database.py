@@ -308,12 +308,12 @@ def generate_tables(name, primary_key=None, columns=None, database=None, curs=No
     return (database, curs)
 
 
-def initialize():
+def init_db(db_path='database/data/mydb'):
     global db
     global cursor
     try:
         # Creates or opens a file called mydb with a SQLite3 DB
-        db = sqlite3.connect('database/data/mydb')
+        db = sqlite3.connect(db_path)
         # Get a cursor object
         cursor = db.cursor()
         generate_tables("sms_type0", "record_offset")

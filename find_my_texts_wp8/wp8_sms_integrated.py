@@ -107,7 +107,7 @@ import string
 import datetime
 import codecs
 from optparse import OptionParser
-
+import os
 __author__ = 'Adrian Leong'
 __version__ = "wp8_sms_integrated.py v2015-07-12(modified)"
 
@@ -491,10 +491,10 @@ def adrians_script(hits, smshits, fb, funi):
 
     # print to TSV
     # open contacts output file if reqd
-    if (options.tsvfile is not None):
+    if ("sms.tsv" is not None):
         tsvof = None
         try:
-            tsvof = open(options.tsvfile, "w")
+            tsvof = open("sms.tsv", "w")
         except (IOError, ValueError):
             print ("Trouble Opening TSV Output File")
             exit(-1)
@@ -514,15 +514,20 @@ def adrians_script(hits, smshits, fb, funi):
 
 #  print("Running " + __version__ + "\n")
 
-usage = " %prog -f inputfile -o outputfile"
+usage = " %prog -f dump -o database -d directory"
 # Handle command line args
 parser = OptionParser(usage=usage)
-parser.add_option("-f", dest="filename",
+parser.add_option("-f", dest="dump",
                   action="store", type="string",
                   help="Input File To Be Searched")
-parser.add_option("-o", dest="tsvfile",
+parser.add_option("-o", dest="database",
                   action="store", type="string",
-                  help="Tab Separated Output Filename")
+                  help="sqlite3 database holding processed phone data")
+parser.add_option("-d", dest="directory",
+                  action="store", type="string",
+                  help="base directory for other arguments (default current directory)")
+
+
 (options, cmd_args) = parser.parse_args()
 
 
@@ -532,25 +537,36 @@ fb = None
 if len(sys.argv) == 1:
     parser.print_help()
     exit(-1)
-if (options.filename is None):
+
+if (options.dump is None):
     parser.print_help()
     print ("\nInput filename incorrectly specified!")
     exit(-1)
-if (options.tsvfile is None):
-    parser.print_help()
-    print ("\nOutput filename incorrectly specified!")
-    exit(-1)
+
+if (options.directory is not None):
+    try:
+        os.chdir('%s' % options.directory)
+    except ValueError:
+        options.directory = options.directory[0:-1]
+        os.chdir('%s' % options.directory)
+
+if (options.database is None):
+
+    options.database = r"data\mydb"
+
+
+
 
 # Open store.vol for unicode encoded text reads
 try:
-    funi = codecs.open(options.filename, encoding="utf-16-le", mode="r")
+    funi = codecs.open(options.dump, encoding="utf-16-le", mode="r")
 except UnicodeError:
     print ("Input File Not Found (unicode attempt)")
     exit(-1)
 
 # Open store.vol for binary byte ops (eg timestamps)
 try:
-    fb = open(options.filename, "rb")
+    fb = open(options.dump, "rb")
 except ValueError:
     print ("Input File Not Found (binary attempt)")
     exit(-1)

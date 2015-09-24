@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="441509785">
+  <component name="DataSourceManagerImpl" format="xml" hash="1699809421">
     <data-source source="LOCAL" name="SQLite -" uuid="be4790a5-2acf-4fed-9a61-b02a014d72c0">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/find_my_texts_wp8/database/data/mydb</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/Desktop/UFED_Extractions/Nokia GSM Lumia 520.2 (RM-915) 2015_07_28 (004)/Physical 02/data/mydb</jdbc-url>
       <libraries />
     </data-source>
   </component>

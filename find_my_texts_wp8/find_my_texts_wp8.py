@@ -9,7 +9,6 @@ from recovery_expressions.sms_text.parse import parse_sms, init_sms_text
 from wp8_sms_integrated import *
 import database.sms_database as sms_database
 
-db = sms_database.initialize()
 
 __author__ = 'Chris Ottersen'
 
@@ -203,6 +202,8 @@ print("%d" % len(hit_map[THREAD]))
 # hits = slice_n_search_re(fb, CHUNK_SIZE, DELTA, substring1)
 hits = hit_map[IPM_SMStext]
 smshits = hit_map[SMS]
+
+db = sms_database.init_db(options.database)
 init_thread(db, tables)
 init_sms_text(db, tables)
 for hit in hit_map[THREAD]:
