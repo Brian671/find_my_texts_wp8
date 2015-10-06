@@ -7,4 +7,8 @@
     <orderEntry type="jdk" jdkName="Python 2.7.10 (C:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="ReSTService">
+    <option name="workdir" value="C:\Users\owner\PycharmProjects\find_my_texts_wp8_clone\find_my_texts_wp8\docs" />
+    <option name="DOC_DIR" value="C:\Users\owner\PycharmProjects\find_my_texts_wp8_clone\find_my_texts_wp8\docs" />
+  </component>
 </module>

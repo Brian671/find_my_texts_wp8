@@ -2,64 +2,53 @@ import re
 
 __author__ = 'Chris Ottersen'
 
+
 exp = re.compile(
     r"""
-        (?!I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)
-        (?P<u0>.{9})
-        (?P<message_id>.{4})
-        .{4}
-        \*{45}                          #74
-        (?:.{43})?
-        \*{25}
-        (?:.{43})?
-        \*{4}                           #/74
 
-        (?P<u1>.{4})                    #padding
-        (?P<thread_id>.{4})           # while not thoroughly tested, this seems to indicate the thread
-        \*{34}
-        (?P<u2>.{4})?                  # unknown
-        \*{42}                          #80
-        (?P<FILETIME_0>.{6}[\xCD-\xD9]\x01)          # unknown meaning
-        \*{36}
-        (?P<FILETIME_1>.{6}[\xCD-\xD9]\x01)          # unknown meaning
-
-        (?P<direction>
-            (?P<unread> \x00\x00\x00\x00)|
-            (?P<read>   \x01\x00\x00\x00)|
-            (?P<sent>   \x21\x00\x00\x00)|
-            (?P<draft>  \x29\x00\x00\x00)|
-            (?P<unknown_status>.{4})
-        )
-        \*{4}                                    #4
-        (?P<u3>.{36})                           #40
-        \*{4}                                    #44
-
-        (?P<u4>.{4})                            #48
-        (?P<u5>.{8})                            #56
-        \*{4}                                    #60
-        (?P<u6>.{4})                            #64
-
-        \*{18}                                   #82-84
-        (?P<u7>.{4})                            #14 00 00 00
-
-        \*{16}                                   #****************
-        (?P<u8>.{6})                            #00 00 00 00 00 00
-
-        \*{8}                                    #********
-        (?P<u9>.{4})                            #01 00 00 00
+        (?!.*I\x00P\x00M\x00\.\x00S\x00M\x00S\x00t\x00e\x00x\x00t\x00\x00\x00)
         (?:
+            (?:
+                (?:
+                    (?P<u0>.{8})
+                    (?P<message_id0>....)
+                    (?P<u1>.{12})
+                    (?P<FILETIME_0>......[\xCD-\xD9]\x01)
 
-            .{50}
-            (?P<u10>\x00\x00\x00\x00)
-            (?P<FILETIME_2>.{6}[\xCD-\xD9]\x01)
-            #|
-            #\x01\x00\x00\x00
+                    (?P<u2>.{88})
+                    (?P<direction>
+                        (?P<unread> \x00\x00\x00\x00)|
+                        (?P<read>   \x01\x00\x00\x00)|
+                        (?P<sent>   \x21\x00\x00\x00)|
+                        (?P<draft>  \x29\x00\x00\x00)|
+                        (?P<unknown_status>.{4})
+                    )
+                )
+                (?P<u3>.{44})
+                (?P<FILETIME_1>......[\xCD-\xD9]\x01)
 
-        )?
-        (?P<u11>
-            (?P<u11a>.{,150}?)\x00\x00\x01
-            (?(draft)\x00\x00|(?(sent)\x00\x00|
-                (?:(?P<phone_0>(?:..){,20}?\x00\x00)\x01)?
-            ))
-        )$
+                (?P<u4>.{24})
+                (?P<FILETIME_2>......[\xCD-\xD9]\x01)
+
+                (?P<u5>.{84})
+                \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\x00\x15\x30\x00\x00\x00\x00
+            )?
+
+            (?P<thread_id>....)
+            (?P<u6>.{36})
+            \x40\x00\x19\x83\x00\x00\x00\x01\x00\x00\x00\x00
+            \x00\x00\x00\x00\x03\x00\x01\x00\x00\x00\x00\x00
+            (?P<message_id>....)
+            \x00\x00\x00\x00\x03\x00\x02\x00\x00\x00\x00\x00
+        )
+        (?P<u7>.{4})
+        \x00{4,}
+        (?(sent)|(?(draft)|
+            (?P<phone_0>(?:..)*?)
+            \x00\x00
+            (?:\x00{2})+
+        ))?
+        (?:(?P<message>(?:..)+)\x00\x00)
+        (?:\x00{2}){1,4}
+        $
 """, re.DOTALL | re.VERBOSE)

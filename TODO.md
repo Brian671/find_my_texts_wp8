@@ -2,14 +2,17 @@ __author__ = 'owner'
 from recovery_expressions.thread_record.parse import parse_thread as parse_thread
 from recovery_expressions.sms_text.parse import parse_sms as parse_sms
 
-
-# TODO: check into Smil.txt
+# TODO: SMS message
+#   TODO: @\x01S\x00M\x00S\x00\x00\x00
+#   TODO: clean up naming schema
+# TODO: MMS message
+#   TODO: check into Smil.txt
+#   TODO: IPM.MMS
+# TODO: thread
+#   TODO: connect to contact
+# 
 # TODO: IPM.Note
 # TODO: IPM.MSG
-# TODO: IPM.MMS
-# TODO: map type 2
-# TODO: map type 3
-# TODO: parse sms
 
 
 # TODO: message 14 - bad text

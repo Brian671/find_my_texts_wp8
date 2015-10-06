@@ -76,41 +76,32 @@ SELECT message_id,
 FROM process_sms_type1_stage0;
 
 
-DROP VIEW IF EXISTS process_sms_type1_final;
+DROP TABLE IF EXISTS process_sms_type1_final;
 
-CREATE VIEW process_sms_type1_final AS
+CREATE TABLE process_sms_type1_final
+(
+  message_id          INTEGER,
+  thread_id           INTEGER,
+  timestamp0          TEXT,
+  timestamp1          TEXT,
+  timestamp2          TEXT,
+  timestamp3          TEXT,
+  direction           TEXT,
+  "direction (hex)"   BLOB,
+  Phone               TEXT,
+  message             TEXT
+);
+
+INSERT INTO process_sms_type1_final
   SELECT
 
     message_id                                 AS message_id,
     thread_id                                  AS thread_id,
 
-    NULLIF(printf('%s.%-07d',
-                  strftime('%m-%d-%Y %H:%M:%S',
-                           unix_time0,
-                           'unixepoch',
-                           'localtime'),
-                  milliseconds0), '.0000000')    AS timestamp0,
-
-    NULLIF(printf('%s.%-07d',
-                  strftime('%m-%d-%Y %H:%M:%S',
-                           unix_time1,
-                           'unixepoch',
-                           'localtime'),
-                  milliseconds1), '.0000000')    AS timestamp1,
-
-    NULLIF(printf('%s.%-07d',
-                  strftime('%m-%d-%Y %H:%M:%S',
-                           unix_time2,
-                           'unixepoch',
-                           'localtime'),
-                  milliseconds2), '.0000000')    AS timestamp2,
-
-    NULLIF(printf('%s.%-07d',
-                  strftime('%m-%d-%Y %H:%M:%S',
-                           unix_time3,
-                           'unixepoch',
-                           'localtime'),
-                  milliseconds3), '.0000000')  AS timestamp3,
+    filetime(FILETIME_0)      AS timestamp0,
+    filetime(FILETIME_1)      AS timestamp1,
+    filetime(FILETIME_2)      AS timestamp2,
+    filetime(FILETIME_3)      AS timestamp3,
     sent_recieved_text                         AS direction,
     hex(sent_recieved_hex)                     AS "direction (hex)",
     Phone                                      AS Phone,
@@ -127,17 +118,13 @@ CREATE VIEW process_sms_type1_final AS
              sent_recieved_text,
              Phone) IS NOT NULL
 
-  GROUP BY message_id
-  ORDER BY message_id DESC;
+  GROUP BY message_id;
 
-
-
-SELECT count(message_id) FROM sms_type1_stage1;
-
-SELECT * FROM sms_type1_stage1;
 
 DROP VIEW IF EXISTS type1_messages;
 
+DROP VIEW IF EXISTS process_sms_type1_stage0;
+DROP VIEW IF EXISTS process_sms_type1_stage1;
 
 CREATE VIEW type1_messages AS
 SELECT DISTINCT
