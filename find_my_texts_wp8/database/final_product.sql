@@ -10,6 +10,9 @@ CREATE VIEW create_union AS
       UNION
       SELECT *
       FROM type1_messages
+      UNION
+      SELECT *
+      FROM type2_messages
     )
 ORDER BY message_id DESC;
 
@@ -67,7 +70,7 @@ CREATE VIEW all_outgoing_unknown AS
 DROP VIEW IF EXISTS messages;
 
 CREATE VIEW messages AS
-  SELECT DISTINCT message_id, timestamp, printf('%s', Phone) as Phone, status, message
+  SELECT DISTINCT message_id, timestamp, Phone, status, message
   FROM (
     SELECT *
     FROM

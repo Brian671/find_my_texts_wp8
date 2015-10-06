@@ -4,7 +4,6 @@ This script
 #. version
 """
 import struct
-
 import expressions
 
 __author__ = 'Chris Ottersen'
@@ -21,10 +20,8 @@ DEFAULT_START_SIZE = 10000
 DEFAULT_END_SIZE = 6000
 
 
-"""
-:type : dict[str, dict[str, object|None]]
-"""
 OUTPUT_TEMPLATES = {}
+""":type : dict[str, dict[str, object|None]]"""
 
 db = None
 cursor = None
@@ -38,7 +35,8 @@ def init_sms_text(db_param, tables_param):
     db = db_param
     OUTPUT_TEMPLATES = {
         "sms_type0": {key: None for key in tables["sms_type0"].keys()},
-        "sms_type1": {key: None for key in tables["sms_type1"].keys()}
+        "sms_type1": {key: None for key in tables["sms_type1"].keys()},
+        "sms_type2": {key: None for key in tables["sms_type2"].keys()}
     }
     cursor = db.cursor()
 
@@ -76,7 +74,7 @@ def unpack_unicode(x):
     :rtype:
     """
     if x is not None and isinstance(x, str):
-        return x.decode('utf-16le').encode('ascii', 'xmlcharrefreplace')
+        return x.decode('utf-16le').encode('utf-8', 'xmlcharrefreplace')
 
 
 def unpack_date(x):
@@ -197,16 +195,18 @@ def parse_sms(fb, hit):
     global hit_count
     fb.seek(hit - DEFAULT_START_SIZE)
     full_buffer = fb.read(DEFAULT_END_SIZE + DEFAULT_START_SIZE)
-
-    (type_0_start_match, type_0_end_match) = parse_sms_general(hit, "sms_type0", full_buffer)
+    s0 = 1000
+    s1 = DEFAULT_START_SIZE
+    s2 = 1000
+    (type_0_start_match, type_0_end_match) = parse_sms_general(hit, "sms_type0", full_buffer, swidth=1000, ewidth=2000)
     (type_1_start_match, type_1_end_match) = parse_sms_general(hit, "sms_type1", full_buffer,
                                                                pre_process=type1_pre_process)
-    #  (type_2_start_match, type_2_end_match) = parse_sms_general(hit, "sms_type2", full_buffer)
-    #  (type_3_start_match, type_3_end_match) = parse_sms_general(hit, "sms_type3", full_buffer)
+    (type_2_start_match, type_2_end_match) = parse_sms_general(hit, "sms_type2", full_buffer, swidth=2500, ewidth=100)
+    (type_3_start_match, type_3_end_match) = (False, False)#parse_sms_general(hit, "sms_type3", full_buffer)
     had_match = (type_0_start_match or type_0_start_match or
-                 type_1_start_match or type_1_start_match)  # or
-    #             type_2_start_match or type_2_start_match or
-    #             type_3_start_match or type_3_start_match)
+                 type_1_start_match or type_1_start_match or
+                 type_2_start_match or type_2_start_match or
+                 type_3_start_match or type_3_start_match)
     if not had_match:
         miss += 1
         print("%02X -> miss: %d" % (hit, miss))
@@ -215,8 +215,10 @@ def parse_sms(fb, hit):
 def get_start_expression(output_type):
     if output_type == "sms_type0":
         return expressions.type0.start.exp
-    if output_type == "sms_type1":
+    elif output_type == "sms_type1":
         return expressions.type1.start.exp
+    elif output_type == "sms_type2":
+        return expressions.type2.start.exp
 
 
 def get_end_expression(parsed, output_type=None):
@@ -267,17 +269,26 @@ def get_end_expression(parsed, output_type=None):
                                                            parsed['backwards'])
             else:
                 expression = expressions.type1.end.get_end(parsed['phone_1'], parsed['i0'], parsed['i1'])
+    elif output_type == "sms_type2":
+        if parsed["message"] is None:
+            expression = expressions.type2.end.exp_fail
+        else:
+            expression = expressions.type2.end.exp_success
 
     return expression
 
 
-def parse_sms_general(hit, output_type, full_binary, post_process=None, pre_process=None):
-    global DEFAULT_END_SIZE
-    global DEFAULT_START_SIZE
+def parse_sms_general(hit, output_type, full_binary, post_process=None, pre_process=None,
+                      swidth=DEFAULT_START_SIZE,
+                      ewidth=DEFAULT_END_SIZE):
+
     global OUTPUT_TEMPLATES
     global tables
+    global DEFAULT_START_SIZE
     assert full_binary is not None
-
+    mid = DEFAULT_START_SIZE
+    full_binary = full_binary[mid-swidth:mid+ewidth]
+    mid = swidth
     parsed = OUTPUT_TEMPLATES[output_type].copy()
 
     parsed["record_offset"] = hit
@@ -288,8 +299,7 @@ def parse_sms_general(hit, output_type, full_binary, post_process=None, pre_proc
         "stage1": parsed.copy()
     }
     start_expression = get_start_expression(output_type)
-    start_match = start_expression.search(full_binary, 0, DEFAULT_START_SIZE)
-
+    start_match = start_expression.search(full_binary, 0, mid)
     start_matched = start_match is not None
     if (start_matched):
         start_match_dict = start_match.groupdict()
@@ -297,19 +307,19 @@ def parse_sms_general(hit, output_type, full_binary, post_process=None, pre_proc
         start_binary = full_binary[start_match.start():start_match.end()]
     else:
         start_match_dict = {}
-        start_binary = full_binary[0:DEFAULT_START_SIZE]
+        start_binary = full_binary[:mid]
 
     end_expression = get_end_expression(parsed, output_type)
-    end_match = end_expression.search(full_binary, DEFAULT_START_SIZE, len(full_binary))
+    end_match = end_expression.search(full_binary, mid, len(full_binary))
     end_matched = end_match is not None
 
     if(end_matched):
         end_match_dict = end_match.groupdict()
         parsed.update(end_match_dict)
-        end_binary = full_binary[end_match.start():end_match.end()]
+        end_binary = end_match.group(0)
     else:
         end_match_dict = {}
-        end_binary = full_binary[DEFAULT_START_SIZE:DEFAULT_START_SIZE + DEFAULT_END_SIZE]
+        end_binary = full_binary[mid:]
 
     if pre_process is not None:
         pre_process(parsed)
@@ -327,10 +337,10 @@ def parse_sms_general(hit, output_type, full_binary, post_process=None, pre_proc
                 offset = None
                 if key in start_match_dict.keys():
                     groupindex = start_expression.groupindex[key]
-                    offset = start_match.start(groupindex) - DEFAULT_START_SIZE
+                    offset = start_match.start(groupindex) - mid
                 elif key in end_match_dict.keys():
                     groupindex = end_expression.groupindex[key]
-                    offset = end_match.start(groupindex) - DEFAULT_START_SIZE
+                    offset = end_match.start(groupindex) - mid
 
                 output["offsets"][key] = offset
                 output["widths"][key] = len(parsed[key])

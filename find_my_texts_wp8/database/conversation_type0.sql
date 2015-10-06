@@ -44,8 +44,5 @@ CREATE VIEW threads as
     UNION
     SELECT  thread_id, phone_6 as phone
     FROM    sms_type1_stage1
-    UNION
-    SELECT  thread_id, phone_7 as phone
-    FROM    sms_type1_stage1
   )
   WHERE phone NOT NULL;
